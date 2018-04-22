@@ -24,11 +24,11 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
 //        DataServiceOriginal.instance.saySomething()
 
 //      Test the good implementation here
-        DataService.instance.getCategories()
+//        DataService.instance.getCategories()
         
 //      This is the 3rd approach here
 //        let ds3 = DataService3()
-        
+
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
