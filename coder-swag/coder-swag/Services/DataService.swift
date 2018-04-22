@@ -59,36 +59,40 @@ final class DataService {
         return categories
     }
     
-    func getProducts(forCategoryTitle title: String) -> [Product] {
-        switch title {
+    func getProducts(forCategoryTitle category: Category) -> [Product] {
+//        for category in categories {
+            // this should avoid having hardcoded category title to compare against
+//        }
+        
+        switch category.title {
         case "SHIRTS":
-            return getShirts()
+            return shirts
         case "HOODIES":
-            return getHoodies()
+            return hoodies
         case "HATS":
-            return getHats()
+            return hats
         case "DIGITAL":
-            return getDigitalGoods()
+            return digitalGoods
         default:
-            return getShirts()
+            return shirts
         }
     }
     
-    func getShirts() -> [Product] {
-        return shirts
-    }
-    
-    func getHoodies() -> [Product] {
-        return hoodies
-    }
-    
-    func getHats() -> [Product] {
-        return hats
-    }
-    
-    func getDigitalGoods() -> [Product] {
-        return digitalGoods
-    }
+//    func getShirts() -> [Product] {
+//        return shirts
+//    }
+//
+//    func getHoodies() -> [Product] {
+//        return hoodies
+//    }
+//
+//    func getHats() -> [Product] {
+//        return hats
+//    }
+//
+//    func getDigitalGoods() -> [Product] {
+//        return digitalGoods
+//    }
     
     private init () {}
 }
