@@ -32,25 +32,25 @@ final class DataService {
     ]
     
     private let hats = [
-        Product(image: "hat01.png", title: "Devslopes Logo Graphic Beanie", price: "18"),
-        Product(image: "hat02.png", title: "Devslopes Logo Hat Black", price: "22"),
-        Product(image: "hat03.png", title: "Devslopes Logo Hat White", price: "22"),
-        Product(image: "hat04.png", title: "Devslopes Logo Snapback", price: "20")
+        Product(image: "hat01.png", title: "Devslopes Logo Graphic Beanie", price: "$18"),
+        Product(image: "hat02.png", title: "Devslopes Logo Hat Black", price: "$22"),
+        Product(image: "hat03.png", title: "Devslopes Logo Hat White", price: "$22"),
+        Product(image: "hat04.png", title: "Devslopes Logo Snapback", price: "$20")
     ]
     
     private let hoodies = [
-        Product(image: "hoodie01.png", title: "Devslopes Logo Hoodie Grey", price: "32"),
-        Product(image: "hoodie02.png", title: "Devslopes Logo Hoodie Red", price: "32"),
-        Product(image: "hoodie03.png", title: "Devslopes Hoodie Grey", price: "32"),
-        Product(image: "hoodie04.png", title: "Devslopes Hoodie Grey", price: "32")
+        Product(image: "hoodie01.png", title: "Devslopes Logo Hoodie Grey", price: "$32"),
+        Product(image: "hoodie02.png", title: "Devslopes Logo Hoodie Red", price: "$32"),
+        Product(image: "hoodie03.png", title: "Devslopes Hoodie Grey", price: "$32"),
+        Product(image: "hoodie04.png", title: "Devslopes Hoodie Grey", price: "$32")
     ]
     
     private let shirts = [
-        Product(image: "shirt01.png", title: "Devslopes Logo Shirt Black", price: "18"),
-        Product(image: "shirt02.png", title: "Devslopes Badge Shirt Light Grey", price: "19"),
-        Product(image: "shirt03.png", title: "Devslopes Logo Shirt Red", price: "18"),
-        Product(image: "shirt04.png", title: "Hustle Delegate Grey", price: "18"),
-        Product(image: "shirt04.png", title: "Kickflip Studios Black", price: "18")
+        Product(image: "shirt01.png", title: "Devslopes Logo Shirt Black", price: "$18"),
+        Product(image: "shirt02.png", title: "Devslopes Badge Shirt Light Grey", price: "$19"),
+        Product(image: "shirt03.png", title: "Devslopes Logo Shirt Red", price: "$18"),
+        Product(image: "shirt04.png", title: "Hustle Delegate Grey", price: "$18"),
+        Product(image: "shirt04.png", title: "Kickflip Studios Black", price: "$18")
     ]
     
     private let digitalGoods = [Product]()

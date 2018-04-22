@@ -9,12 +9,12 @@
 import Foundation
 
 class Product {
-    private(set) var image: String
+    private(set) var imageName: String
     private(set) var title: String
     private(set) var price: String
 
     init(image:String, title: String, price: String) {
-        self.image = image
+        self.imageName = image
         self.title = title
         self.price = price
     }
